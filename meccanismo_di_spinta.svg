@@ -14,7 +14,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   sodipodi:docname="meccanismo_di_spinta.svg"
+   sodipodi:docname="meccanismo_di_spinta_.svg"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -25,18 +25,20 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-width="1402"
+     inkscape:window-height="1041"
      id="namedview47"
      showgrid="false"
      inkscape:zoom="0.79285915"
      inkscape:cx="374.77837"
-     inkscape:cy="510.80952"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
-     inkscape:document-rotation="0" />
+     inkscape:cy="515.46249"
+     inkscape:window-x="226"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="false"
+     borderlayer="false" />
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -167,7 +169,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -269,7 +271,8 @@
          id="tspan888"
          x="163.51686"
          y="207.56628"
-         style="font-size:4.58611px;stroke-width:0.264583">Hp</tspan></text>
+         style="font-size:4.58611px;stroke-width:0.264583"
+         rotate="0 0 0">Hp</tspan></text>
   </g>
   <g
      id="layer2"
@@ -300,10 +303,18 @@
        x="98.160416"
        y="278.34167"
        id="text881"><tspan
-         id="tspan879"
+         sodipodi:role="line"
+         id="tspan59"
          x="98.160416"
-         y="278.34167"
-         style="font-size:4.58611px;stroke-width:0.264583">Lb = 60cm</tspan></text>
+         y="278.34167"><tspan
+           id="tspan879"
+           x="98.160416"
+           y="278.34167"
+           style="font-size:4.58611px;stroke-width:0.264583">Lb</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan61"
+         x="98.160416"
+         y="284.07431" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
