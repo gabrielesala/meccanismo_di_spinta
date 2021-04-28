@@ -1,1 +1,9 @@
-# Prima istanza README
+The device chosen for the current homework is a modified crankshaft.
+It is capable of transmitting a vertical motion by obtaining the horizontal motion of a piston.
+
+Constrains:
+- α >= 0
+- Lm, Lb, Hp > 0
+- Lm Sin(α) < Lb
+- Lm Cos(α) > 1/2 Hp
+

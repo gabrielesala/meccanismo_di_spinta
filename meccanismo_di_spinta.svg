@@ -30,15 +30,25 @@
      id="namedview47"
      showgrid="false"
      inkscape:zoom="0.79285915"
-     inkscape:cx="142.70689"
+     inkscape:cx="396.85039"
      inkscape:cy="510.80952"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="layer2"
      inkscape:document-rotation="0" />
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect886"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect882"
+       is_visible="true"
+       lpeversion="1" />
     <linearGradient
        id="linearGradient892"
        osb:paint="solid">
@@ -137,7 +147,7 @@
        x2="48.776019"
        y2="83.232506"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-84.316589)" />
+       gradientTransform="translate(-60.289622,-0.33370751)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient886"
@@ -172,8 +182,9 @@
        y="69.714073" />
     <path
        id="rect5183"
-       style="fill:#0000ff;stroke:#000000;stroke-width:1.78255;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 46.710943,83.820791 -7.15222,4.583913 70.360317,129.143006 7.15267,-4.58339 z" />
+       style="fill:#0000ff;stroke:#000000;stroke-width:2.04666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.128833,83.668206 -9.430677,4.582935 41.509395,57.768999 51.265359,71.34645 9.43127,-4.58241 z"
+       sodipodi:nodetypes="cccccc" />
     <rect
        style="fill:#ff0000;fill-rule:evenodd;stroke:url(#linearGradient5151);stroke-width:1.19529;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect16"
@@ -205,59 +216,60 @@
        y="6.1536827"
        ry="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.223078px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 14.273917,83.232506 V 212.57657"
-       id="path5232" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:0.249482px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 14.273917,243.94511 v 0"
        id="path5234" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.148791px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 6.5378007,212.99622 c 13.5093953,-0.17044 13.5093953,-0.17044 13.5093953,-0.17044 v 0"
-       id="path5240" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.349933px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 8.7242018,83.341761 C 18.778882,83.234493 18.778882,83.234493 18.778882,83.234493 c 0,10e-7 0,0 0,0"
-       id="path5242" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="6.8791661"
-       y="161.92499"
-       id="text5246"><tspan
-         id="tspan5244"
-         x="6.8791661"
-         y="161.92499"
-         style="font-size:4.58611px;stroke-width:0.264583">Hp</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="82.549995"
-       y="138.1125"
+       x="70.202805"
+       y="144.11925"
        id="text5250"><tspan
          id="tspan5248"
-         x="82.549995"
-         y="138.1125"
+         x="70.202805"
+         y="144.11925"
          style="font-size:4.58611px;stroke-width:0.264583">Lm</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 42.156533,83.232505 -0.08778,56.732075"
+       d="m 18.463275,83.232505 -0.08778,56.732075"
        id="path5252" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 42.068749,121.44375 c 8.618053,3.48135 12.91886,-1.05505 16.66875,-6.61458 h 0.264584"
+       d="m 18.375491,113.76847 c 8.618053,3.48135 12.91886,-1.05505 16.66875,-6.61458 h 0.264584"
        id="path5254" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="47.360416"
-       y="116.41666"
+       x="22.332327"
+       y="110.07621"
        id="text5258"><tspan
          id="tspan5256"
-         x="47.360416"
-         y="116.41666"
+         x="22.332327"
+         y="110.07621"
          style="font-size:4.58611px;stroke-width:0.264583">α</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.275021px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160.51348,197.22135 v 31.36854"
+       id="path880"
+       inkscape:path-effect="#path-effect882"
+       inkscape:original-d="m 160.51348,197.22135 c 2.6e-4,10.45646 2.6e-4,20.91264 0,31.36854" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 166.18651,197.55505 H 153.83932"
+       id="path884"
+       inkscape:path-effect="#path-effect886"
+       inkscape:original-d="m 166.18651,197.55505 c -4.11546,2.7e-4 -8.23119,2.7e-4 -12.34719,0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="163.51686"
+       y="207.56628"
+       id="text890"><tspan
+         sodipodi:role="line"
+         id="tspan888"
+         x="163.51686"
+         y="207.56628"
+         style="font-size:4.58611px;stroke-width:0.264583">Hp</tspan></text>
   </g>
   <g
      id="layer2"
@@ -291,7 +303,7 @@
          id="tspan879"
          x="98.160416"
          y="278.34167"
-         style="font-size:4.58611px;stroke-width:0.264583">Lp = 60cm</tspan></text>
+         style="font-size:4.58611px;stroke-width:0.264583">Lb = 60cm</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -308,9 +320,9 @@
     <ellipse
        style="fill:#ffff00;fill-rule:evenodd;stroke:url(#linearGradient888);stroke-width:1.00542;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="path49"
-       transform="scale(-0.99999999,0.99999999)"
-       cx="-42.160057"
-       cy="83.232506"
+       transform="scale(-1,1)"
+       cx="-18.133091"
+       cy="82.898796"
        rx="6.6194863"
        ry="6.6045341" />
   </g>
