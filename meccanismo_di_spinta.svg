@@ -14,7 +14,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   sodipodi:docname="meccanismo_di_spinta_.svg"
+   sodipodi:docname="meccanismo_di_spinta.svg"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -31,7 +31,7 @@
      showgrid="false"
      inkscape:zoom="0.79285915"
      inkscape:cx="374.77837"
-     inkscape:cy="515.46249"
+     inkscape:cy="616.36314"
      inkscape:window-x="226"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -41,6 +41,31 @@
      borderlayer="false" />
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect85"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect81"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect77"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect69"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect65"
+       is_visible="true"
+       lpeversion="1" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect886"
@@ -169,7 +194,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -337,4 +362,45 @@
        rx="6.6194863"
        ry="6.6045341" />
   </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.447624px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 58.454606,183.46612 96.719548,153.57881"
+     id="path63"
+     inkscape:path-effect="#path-effect65"
+     inkscape:original-d="m 58.454606,183.46612 c 12.755419,-9.96198 25.510403,-19.92441 38.264942,-29.88731" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 73.082022,172.52696 v 5.00562"
+     id="path67"
+     inkscape:path-effect="#path-effect69"
+     inkscape:original-d="m 73.082022,172.52696 c 2.65e-4,1.66881 2.65e-4,3.33735 0,5.00562" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 73.082022,172.52696 -4.004495,-3.00337"
+     id="path75"
+     inkscape:path-effect="#path-effect77"
+     inkscape:original-d="m 73.082022,172.52696 c -1.334569,-1.00086 -2.6694,-2.00198 -4.004495,-3.00337" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 83.426966,164.18427 -0.333709,-5.33933"
+     id="path79"
+     inkscape:path-effect="#path-effect81"
+     inkscape:original-d="m 83.426966,164.18427 c -0.110972,-1.77951 -0.222208,-3.55929 -0.333709,-5.33933" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 83.426966,164.18427 4.338201,1.66854"
+     id="path83"
+     inkscape:path-effect="#path-effect85"
+     inkscape:original-d="m 83.426966,164.18427 c 1.446331,0.55644 2.892398,1.11262 4.338201,1.66854" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="56.396626"
+     y="176.86517"
+     id="text89"><tspan
+       sodipodi:role="line"
+       id="tspan87"
+       x="56.396626"
+       y="176.86517"
+       style="font-size:4.58611px;stroke-width:0.264583">Dm</tspan></text>
 </svg>
