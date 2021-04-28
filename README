@@ -6,9 +6,3 @@ It is capable of transmitting a vertical motion by obtaining the horizontal moti
 ![](https://github.com/gabrielesala/meccanismo_di_spinta/blob/main/meccanismo_di_spinta.svg?sanitize=true)
 
 
-Constrains:
-- α >= 0
-- Lm, Lb, Hp > 0
-- Lm Sin(α) < Lb
-- Lm Cos(α) > 1/2 Hp
-
