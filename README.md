@@ -6,7 +6,7 @@ It is capable of transmitting a vertical motion by obtaining the horizontal moti
 
 
 #### Parameters:
-* Dh : Crank Diameter
+* Dm : Crank Diameter
 * Lm : Crank length
 * Lp : Length of the chassis 
 * Hp : Width of the piston
