@@ -8,7 +8,8 @@ It is capable of transmitting a vertical motion by obtaining the horizontal moti
 #### Parameters:
 * Dm : Crank Diameter
 * Lm : Crank length
-* Lp : Length of the chassis 
+* Lp : Length of the piston
+* Lb : Length of the chassis 
 * Hp : Width of the piston
 * α : Crank's rotation angle 
 
@@ -17,3 +18,4 @@ It is capable of transmitting a vertical motion by obtaining the horizontal moti
 - Lm, Lb, Hp > 0 
 - Lm Sin(α) < Lb 
 - Lm Cos(α) > 1/2 Hp
+- Lp < 1/2 Lb
