@@ -1,9 +1,7 @@
 The device chosen for the current homework is a modified crankshaft.
 It is capable of transmitting a vertical motion by obtaining the horizontal motion of a piston.
 
-<a href="https://github.com/gabrielesala/">
-  <img src="https://github.com/gabrielesala/meccanismo_di_spinta/blob/main/meccanismo_di_spinta.svg" width="100%" height="144">
-</a>
+![](https://github.com/gabrielesala/meccanismo_di_spinta/blob/main/meccanismo_di_spinta.svg)
 
 Constrains:
 - α >= 0
