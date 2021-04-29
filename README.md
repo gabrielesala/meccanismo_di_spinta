@@ -18,4 +18,4 @@ It is capable of transmitting a vertical motion by obtaining the horizontal moti
 - Lm, Lb, Hp > 0 
 - Lm Sin(α) < Lb 
 - Lm Cos(α) > 1/2 Hp
-- Lp < 1/2 Lb
+- Lp <= 1/2 Lb
