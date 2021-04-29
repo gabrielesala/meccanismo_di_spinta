@@ -33,7 +33,7 @@ int mds_inspect(mds* mds){  // funzione che controlla i parametri
 
 
 
-string mds_to_svg(mds* mds){
+string mds_to_svg(mds* mds){   // definizione file svg (ERROR, da sistemare)
     string defxml;
     defxml =  "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"600\">\n\n";
     string rect1;
@@ -47,7 +47,7 @@ string mds_to_svg(mds* mds){
     cranck = "<rect x="+ to_string(50 + Lm/2 cos(alfa+ 3/2 Pi))"";
     cranck += "y="+ to_string(100 + Lm/2 Sin(alfa+ 3/2 Pi))"";
     cranck += "width="+ to_string(Lm)""; 
-    cranck += "height=\"+ to_string(Lp"";
+    cranck += "height=\"+ to_string(Lp";
     cranck += "transform="rotate(alfa - 90 Pi)" /> \n";
 
     string piston;
@@ -69,7 +69,7 @@ string mds_to_svg(mds* mds){
     string circle1;
     circle1 = "<circle cx="50" cy="100" r="30" stroke="black" stroke-width="3" fill="red" /> \n";
 
-    string mds_to_svg = string rect1 + string cranck + string piston + string circle2 + string rect2 + string circle1;
+    string mds_to_svg = rect1 + cranck + piston + circle2 + rect2 + circle1;
     return mds_to_svg;
 
     }
@@ -78,16 +78,16 @@ string mds_to_svg(mds* mds){
 void mg_filew(string mds_to_svg){
 
     if(mds_to_svg == "") {
-        cout << "Something went werong during the svg generation";
+        cout << "ERROR";
     }
     if(mds_to_svg != ""){
-        string nome;
+        string name;
 
-        cout << "Write file name (es: catcatapult.svg)" << endl;
-        cin >> nome;
+        cout << "You have now to choose the name for your file" << endl;
+        cin >> name;
 
         // Create and open a text file
-        ofstream MyFile(nome);
+        ofstream MyFile(name);
 
         // Write to the file
         MyFile << mds_to_svg;
@@ -99,23 +99,23 @@ void mg_filew(string mds_to_svg){
 
 
 
-void mg_init_mds(mds* mds){
+void init_mds(mds* mds){
     while(true){
-        cout << "define wheel radius: ";
+        cout << "Define crank width:";
         cin >> mds -> Dm;
-        cout << "define bed hight: ";
+        cout << "Define crank length";
         cin >> mds -> Lm;
-        cout << "define box hight: ";
+        cout << "Define piston length:";
         cin >> mds -> Lp;
-        cout << "define arm length: ";
+        cout << "Define chassis length";
         cin >> mds -> Lb;
-        cout << "define launch angle: ";
+        cout << "define piston width: ";
         cin >> mds -> Hp;
-        cout << "define launch angle: ";
+        cout << "Define crank's angle:";
         cin >> mds -> alfa;
 
-        if ( mds_inspect(mds* mds) == 0 ){
-            cout << "The set values are correct, a .svg file can be created" << endl;
+        if ( mds_inspect(mds* mds)){
+
             mds_to_svg(mds* mds);
             return;
         }

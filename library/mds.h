@@ -24,10 +24,10 @@ struct mds
     }
 };
 
-void mg_filew(string cat);  //scrive su file il file la stringa che costituisce l'svg
-std::string mg_catSVG(mds* meccanismo_di_spinta);    //costruisce la stringa
-int mg_check(mds* meccanismo_di_spinta);    //controlla i vincoli
-void mg_init_cat(mds* meccanismo_di_spinta);    //crea un nuovo meccanismo di spinta inizializzando nuove variabili
+void mg_filew(string cat);  
+std::string mds_to_svg(mds* mds)   // crea la stringa
+int mds_inspect(mds* mds);    //controlla i vincoli
+void init_mds(mds* mds);    //crea un nuovo meccanismo di spinta inizializzando nuove variabili
 
 
 #endif
