@@ -25,7 +25,7 @@ struct mds
 };
 
 void mg_filew(string cat);  
-std::string mds_to_svg(mds* mds)   // crea la stringa
+std::string mds_to_svg(mds* mds);  // crea la stringa
 int mds_inspect(mds* mds);    //controlla i vincoli
 void init_mds(mds* mds);    //crea un nuovo meccanismo di spinta inizializzando nuove variabili
 
