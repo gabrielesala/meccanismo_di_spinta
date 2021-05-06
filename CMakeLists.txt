@@ -8,9 +8,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 # EXECUTABLE SECTION
 add_executable(mainDevice main.cpp)
-target_include_directories(mainDevice PUBLIC library)
+target_include_directories(mainDevice PRIVATE library)
 # Class A is not a library: its source file needs to be included in the target sources
-target_sources(mainDevice PUBLIC libraries/library.cpp)
+target_sources(mainDevice PUBLIC src/mds.cpp)
 target_link_libraries(mainDevice)
 
 
