@@ -6,6 +6,7 @@
 #include <string>
 #include <sstream>
 #include "mds.h"
+using namespace std;
 
 int mds_inspect(mds* mds){  // funzione che controlla i parametri
     int ins;
@@ -40,10 +41,10 @@ string mds_to_svg(mds* mds){   // definizione file svg (ERROR, da sistemare)
     string defxml;
     defxml =  "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"600\">\n\n";
     string rect1;
-    rect1 = " <rect width=\"750\ ";
-    rect1 += " height=\" 150 ";
-    rect1 += " transform=\"translate("50","100") ";
-    rect1 += "style=\"fill:rgb(0,0,255)stroke-width:3 stroke:rgb(0,0,255)\"/> \n";
+    rect1 = "<rect width=\"750\"";
+    rect1 += " height=\" 150";
+    rect1 += " transform=\"translate(50,100)";
+    rect1 += " style=\"fill:rgb(0,0,255)stroke-width:3 stroke:rgb(0,0,255)\"/> \n";
     
     
     string cranck;
@@ -54,23 +55,23 @@ string mds_to_svg(mds* mds){   // definizione file svg (ERROR, da sistemare)
     cranck += "transform=\"rotate("+ to_string((mds->alfa) - 90 * 3.14)+ "/> \n";
 
     string piston;
-    piston = "<rect x=\""+ to_string(50 + (mds->Lm) * cos((mds->alfa)+ 3/2 * Pi))+"\"";
-    piston += "y=\""+ to_string(100 + (mds->Lm)/2 * sin((mds->alfa)+ 3/2 * Pi))+"\"";
+    piston = "<rect x=\""+ to_string(50 + (mds->Lm) * cos((mds->alfa)+ 3/2 * 3.14))+"\"";
+    piston += "y=\""+ to_string(100 + (mds->Lm)/2 * sin((mds->alfa)+ 3/2 * 3.14))+"\"";
     piston += "width=\""+ to_string((mds->Lp))+"\"";
-    piston += "height=\""+ to_string((mds->Hp)) " /> \n";
+    piston += "height=\""+ to_string((mds->Hp)) + "/> \n";
 
 
     string circle2;
-    circle2 = "<circle cx=\"" + to_string(50 + (mds->Lm) * cos((mds->alfa) + 3/2 * Pi)) + "\"+ cy="+to_string(100 + (mds->Lm)/2 sin((mds->alfa)+ 3/2 Pi))" r="30" stroke=\"black\" stroke-width="3" fill=\"red\" /> \n";
+    circle2 = "<circle cx=\"" + to_string(50 + (mds->Lm) * cos((mds->alfa) + 3/2 * 3.14)) + "\"+ cy=\""+to_string(100 + (mds->Lm)/2 * sin((mds->alfa)+ 3/2 * 3.14)) + "r=\"30\" stroke=\"black\" stroke-width="3" fill=\"red\" /> \n";
 
     string rect2;
-    rect2 = "<rect width="750"";
-    rect2 += "height="150"";
-    rect2 += "transform=\"translate("50 +"," + to_string =(100 + (mds->Lm) * sin((mds->alfa)) + 2 * (mds->Hp)))"";
+    rect2 = "<rect width=\"750\"";
+    rect2 += "height=\"150\"";
+    rect2 += "transform=\"translate(\"50," + to_string(100 + (mds->Lm) * sin((mds->alfa)) + 2 * (mds->Hp)) + "\"";
     rect2 += "style=\"fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,255)\" /> \n";
 
     string circle1;
-    circle1 = "<circle cx="50" cy="100" r="30" stroke=\"black\" stroke-width="3" fill=\"red\" /> \n";
+    circle1 = "<circle cx=\"50\" cy=\"100\" r=\"30\" stroke=\"black\" stroke-width=\"3\" fill=\"red\" /> \n";
 
     string mds_to_svg = rect1 + cranck + piston + circle2 + rect2 + circle1;
     return mds_to_svg;
@@ -78,7 +79,7 @@ string mds_to_svg(mds* mds){   // definizione file svg (ERROR, da sistemare)
     }
 
 
-void mg_filew(string mds_to_svg){
+char mg_filew(string mds_to_svg){
 
     if(mds_to_svg == "") {
         cout << "ERROR";
@@ -117,9 +118,9 @@ void init_mds(mds* mds){
         cout << "Define crank's angle:";
         cin >> mds -> alfa;
 
-        if ( mds_inspect(mds* mds)){
+        if ( mds_inspect(mds)){
 
-            mds_to_svg(mds* mds);
+            mds_to_svg(mds);
             return;
         }
     }
