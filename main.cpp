@@ -10,6 +10,7 @@ using namespace std;
 
 
 int main(){
+    // Define the possible options available to the user
     cout << "Choose an option:" << endl;
     cout << "Define and create a new crankshaft {1}" << endl;
     cout << "Save the created crankshaft as a svg type file {2}" << endl;
