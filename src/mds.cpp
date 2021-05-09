@@ -128,15 +128,8 @@ void init_mds(mds* mds){
 }
 
 void choose_option(int opt){
-
     mds* mds;
     string mds_svg;
-
-    cout << "Choose an option:" << endl;
-    cout << "Define and create a new crankshaft {1}" << endl;
-    cout << "Save the created crankshaft as a svg type file {2}" << endl;
-    cout << "Close the program {3}" << endl; 
-
     while(opt!=3){
         switch (opt)
         {
