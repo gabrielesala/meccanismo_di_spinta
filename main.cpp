@@ -10,7 +10,10 @@ using namespace std;
 
 
 int main(){
-    //using switch case 
+    cout << "Choose an option:" << endl;
+    cout << "Define and create a new crankshaft {1}" << endl;
+    cout << "Save the created crankshaft as a svg type file {2}" << endl;
+    cout << "Shutdown the current task {3}" << endl; 
     int opt;
     cin >> opt;
     choose_option(opt);
